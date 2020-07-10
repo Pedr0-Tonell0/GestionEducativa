@@ -1,0 +1,59 @@
+@charset "ISO-8859-1";
+body {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+   background: url('http://k30.kn3.net/taringa/3/F/4/1/A/2/TheCrashWTF/B95.jpg');
+  
+}
+
+.ze-card-invi-wrap {
+  display: flex;
+  cursor: pointer;
+  width: 25%;
+  margin: 5px auto;
+  overflow: hidden;
+  padding: 45px;
+  padding-bottom: 100px;
+  position: relative;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+.ze-card-invi-wrap:hover .ze-img-w {
+  transform: translateZ(20px);
+}
+.ze-card-invi-wrap:hover .ze-img-w:after {
+  top: 200%;
+}
+.ze-card-invi-wrap:hover .ze-title:after {
+  width: 90%;
+}
+
+
+.ze-card {
+  max-width: 320px;
+  padding: 25px;
+  padding-bottom: 255px;
+  background: #ffe933;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 0 3px 5px rgba(0, 0, 0, 0.05);
+  position: relative;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  z-index: 5;
+}
+.ze-img-w {
+  position: absolute;
+  bottom: -25px;
+  right: -5px;
+  width: 100%;
+  height: 300px;
+  border-radius: 9px;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  transform: translateZ(15px);
+  transition: all 0.5s;
+}

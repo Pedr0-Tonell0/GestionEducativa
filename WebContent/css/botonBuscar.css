@@ -1,0 +1,48 @@
+.buttonBuscar {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 4px 5px;
+    border: 0px solid #a99c99;
+    border-radius: 100px;
+    background: #f1dfda;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f1dfda), to(#a99c99));
+    background: -moz-linear-gradient(top, #f1dfda, #a99c99);
+    background: linear-gradient(to bottom, #f1dfda, #a99c99);
+    -webkit-box-shadow: #ffffff 0px 0px 0px 0px;
+    -moz-box-shadow: #ffffff 0px 0px 0px 0px;
+    box-shadow: #ffffff 0px 0px 0px 0px;
+    text-shadow: #ffffff 1px 1px 1px;
+    font: italic normal normal 5px arial;
+    color: #111111;
+    text-decoration: none;
+}
+.buttonBuscar:hover,
+.buttonBuscar:focus {
+    border: 0px solid ##f1dfda;
+    background: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#cbbbb8));
+    background: -moz-linear-gradient(top, #ffffff, #cbbbb8);
+    background: linear-gradient(to bottom, #ffffff, #cbbbb8);
+    color: #111111;
+    text-decoration: none;
+}
+.buttonBuscar:active {
+    background: #a99c99;
+    background: -webkit-gradient(linear, left top, left bottom, from(#a99c99), to(#a99c99));
+    background: -moz-linear-gradient(top, #a99c99, #a99c99);
+    background: linear-gradient(to bottom, #a99c99, #a99c99);
+}
+.buttonBuscar:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 0px 0px 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABq0lEQVRIiZ2VsUoDQRCGP47DQixCEKvYSsAmiEUQi9TWIel8ELERHyBFqjyKVUgI2IkQRFMJWgQRgsFGEA6Lnb1s9mZvEweG+2/mn53Z2Zs9gCSidaAPzIBv0ZnY6rH4BCMZRUmAa2AIfAFd4FC0K7ahcLR1Mnchf2GkwnugpvAsrgmnX8JRE3SAJ6AitnPgDlhSlIpwO4ovX9DVHUyPW06yd+ASOFD4iXBnEuv7CttqAlPB+8AH0Aht31loCpz5HL89GXAKTARfAGPgEf1DcOMmwInvSJWKqsBCbG/AQClE28UCcx5rdpvArW4BHItt7PiSCK5iDrvA8atzzyAkoTNoahz/1FPgmdVXtIm2JCZVfOoctFmfA61qK3YO2iFOqBU91idZEzvJvRJOnkBr1RUwB24xs1ARbYhtLhytNaUtcvGRVDjFXBVLTEt64isbwIIxJjeiG0vq4Fgie0/ZuLLJLgSG3i1OgRHwKzpCvwX+3aI94FOeLo7KNi3SJBrjEjJWffVxSEL8HGsVqP/VDZKoeNsW7Xrv0Rg3QdlV/AO8AK9ifxBbFuDn+A8su2iP6GJwFQAAAABJRU5ErkJggg==") no-repeat left center transparent;
+    background-size: 100% 100%;
+}

@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+    color: white;
+}
+.tabla_reporte {
+	margin-top: 1em;
+	width: 1100px;
+	float: center;
+	background-color: white ;
+	color: gray;
+	box-sizing: border-box;
+	margin-top: 1em;
+	-webkit-box-shadow: 10px 14px 16px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 14px 16px -5px rgba(0,0,0,0.75);
+	box-shadow: 10px 14px 16px -5px rgba(0,0,0,0.75);
+	align-content: center;
+	height: 100%;	
+	
+}
+.select_cursoReporte {
+	color: white;
+	background-color: gray;
+	position: relative;
+}
+
+.buttonBuscar {
+	background-color: white;
+	border-color: gray;
+	color: black;
+	width: 300px;
+}

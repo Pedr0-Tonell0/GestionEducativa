@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+   body{
+ background: url('http://k30.kn3.net/taringa/3/F/4/1/A/2/TheCrashWTF/B95.jpg');
+   }                  
+.card-base > .card-icon {
+        text-align: center;
+        position: relative;
+    }
+
+.imagecard { 
+    z-index: 2;
+    display: block;
+    positioN: relative;
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    border: 5px solid black;
+    box-shadow: 1px 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    margin: 0 auto;
+    color: black;
+}
+.card-base > .card-icon > .card-data {
+    min-height: 250px !important;
+    margin-top: -24px;
+    background: #283966;
+    border: 1px solid #e0e0e0;
+    padding: 15px 0 10px 0;
+     box-shadow: 1px 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    min-height: 215px;
+    }
+    #widgetCardIcon {
+        background: #bb7824 !important;
+        font-size: 28px;
+        line-height: 78px;
+    }
+
+a:hover{
+	background:linear-gradient(to bottom, #283966 5%, #283966 100%);
+	background-color:#bb7824;
+}
+.btn-default:hover{
+	box-shadow: 2px 1px 2px 3px #99ccff;
+	background:#5900a6;
+	color:#fff;
+	transition: background-color 1.15s ease-in-out,border-color 1.15s ease-in-out,box-shadow 1.15s ease-in-out;
+	
+}

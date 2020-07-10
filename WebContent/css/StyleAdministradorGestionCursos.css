@@ -1,0 +1,90 @@
+@charset "ISO-8859-1";
+
+.div_caja {
+	padding: 1rem;
+    background-color: #283966;
+    color: #fff;
+	width: 100%;
+	height:300px;
+    box-sizing: border-box;
+	-webkit-box-shadow: 10px 14px 16px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 14px 16px -5px rgba(0,0,0,0.75);
+	box-shadow: 10px 14px 16px -5px rgba(0,0,0,0.75);
+}
+.form-group {
+  width: 300px;
+}
+.select_alta {
+	width: 300px;
+	margin-top: 1em;
+	margin-left: 2px;
+}
+.select_Curso {
+	width: 900px;
+	margin-top: 2em;
+	margin-left: 4em;
+}
+
+.select_alta_mid {
+	width: 133px;
+	margin-top: 1em;
+	}
+	
+
+.lbl_alta {
+	padding-top: 9px;
+	margin-top: 1em;
+	font-family: sans-serif;
+}
+.lbl_alta_mid {
+	padding-top: 9px;
+	font-family: sans-serif;
+}
+
+.lblAltaCurso {
+	color: white;
+	font-size: 14px;
+}
+.lblCurso {
+	margin-left: 40em;
+	font-size: 15px;
+	margin-top: 2em;
+}
+.tabla_alumnos {
+	width: 400px;
+	background-color: #F7F9F8 ;
+	color: gray;
+	box-sizing: border-box;
+	margin-top: 1em;
+	-webkit-box-shadow: 10px 14px 16px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 14px 16px -5px rgba(0,0,0,0.75);
+	box-shadow: 10px 14px 16px -5px rgba(0,0,0,0.75);
+	
+}
+.tabla_cursos {
+	margin-top: 2em;
+	background-color: #F7F9F8 ;
+	color: gray;
+	box-sizing: border-box;
+	-webkit-box-shadow: 10px 14px 16px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 14px 16px -5px rgba(0,0,0,0.75);
+	box-shadow: 10px 14px 16px -5px rgba(0,0,0,0.75);
+}
+.myButton {
+	margin-left: 400px;
+	box-shadow:inset 0px 50px 0px 1px #ac85f1;
+	cursor:pointer;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 76px;
+	text-shadow:0px 1px 0px #ac85f0;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #a20dbd 5%, #c123de 100%);
+	background-color:#a20dbd;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+  

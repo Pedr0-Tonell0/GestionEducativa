@@ -1,0 +1,8 @@
+@charset "ISO-8859-1";
+    body{
+ background: url('http://k30.kn3.net/taringa/3/F/4/1/A/2/TheCrashWTF/B95.jpg');
+    }   
+   a:hover{
+	background:linear-gradient(to bottom, #283966 5%, #283966 100%);
+	background-color:#bb7824;
+}

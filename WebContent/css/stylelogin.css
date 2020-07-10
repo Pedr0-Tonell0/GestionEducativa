@@ -1,0 +1,70 @@
+@charset "ISO-8859-1";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+@import url("https://fonts.googleapis.com/css?family=Cairo&display=swap");
+body{
+ background: url('http://k30.kn3.net/taringa/3/F/4/1/A/2/TheCrashWTF/B95.jpg');
+}
+#login-container{
+  width: 450px;
+  height: 375px;
+  background-color: #00796b;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+#login-container h3{
+  font-family: 'Cairo', sans-serif;
+  font-weight: normal;
+  text-align: center;
+  color: #ffffff;
+  font-size: 2rem;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+#login-container hr{
+  margin-top: 15px;
+  margin-bottom: 2.7rem;
+  width: 250px;
+  border-color: #ffffff;
+}
+#login-container .input-group{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#login-container .input-group span{
+  background-color: #004c40;
+  color: #ffffff;
+  border-color: #004c40;
+  border-radius: 10px 0px 0px 10px;
+}
+#login-container .input-group input{
+  border: 1px solid #00796b;
+  border-radius: 0px 10px 10px 0px;
+  font-family: 'Cairo', sans-serif;
+}
+#login-container .input-group input:focus{
+  box-shadow: none;
+  border: 1px solid #00796b;
+}
+
+
+.btn-customized{
+  background-color: #004c40;
+  margin-top: 30px;
+  color: #ffffff;
+  border-color: #004c40;
+  font-family: 'Cairo', sans-serif;
+  border-radius: 10px;
+}
+
+.btn-customized:hover, .btn-customized:focus, .btn-customized:active{
+   box-shadow: 2px 1px 2px 3px #99ccff;
+	background:#5900a6;
+	color:#fff;
+	transition: background-color 1.15s ease-in-out,border-color 1.15s ease-in-out,box-shadow 1.15s ease-in-out;
+	
+}
